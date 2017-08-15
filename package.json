@@ -6,6 +6,9 @@
   "scripts": {
     "postinstall": "echo \"(${YR})\"; if [[ ${YR} != 1 ]]; then bash postinstall.sh; fi"
   },
+  "config":{
+    "if-present": true,
+  },
   "dependencies": {
     "dgrid": "^1.1.0",
     "dijit": "^1.12.2",
