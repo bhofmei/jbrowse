@@ -4,7 +4,7 @@
   "repository": "https://github.com/bhofmei/jbrowse.git",
   "version" : "0.0.1",
   "scripts": {
-    "postinstall": "if [[ ${YN} != 1 ]]; then bash postinstall.sh; fi"
+    "postinstall": "echo \"${YN}\"; if [[ ${YN} != 1 ]]; then bash postinstall.sh; fi"
   },
   "dependencies": {
     "dgrid": "^1.1.0",
