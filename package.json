@@ -7,7 +7,7 @@
     "postinstall": "echo \"(${YR})\"; if [[ ${YR} != 1 ]]; then bash postinstall.sh; fi"
   },
   "config":{
-    "if-present": true,
+    "if-present": true
   },
   "dependencies": {
     "dgrid": "^1.1.0",
